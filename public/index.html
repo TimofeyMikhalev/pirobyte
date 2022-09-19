@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <!-- шапка -->
+    <header class="header">
+
+        <!-- шапка в мобилке -->
+        <div class="header__mobile item_mobile">
+            <div class="header__mobile_account">
+                <a href="#">
+                    <img src="images/mobile-accaunt.svg" alt="">
+                </a> 
+            </div>
+            <div class="header__mobile_logo">
+                <a href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="header__mobile_menu">
+                <button>
+                    <img src="images/menu-mobile.svg" alt="">
+                </button>
+            </div>
+        </div>
+        <!-- логотип -->
+        <div class="header__logo">
+            <a href="#"><img src="images/logo.png" alt=""></a>
+        </div>
+        <!-- геолокация -->
+        <div class="header__geo">
+            <div class="geo__img">
+                <img src="images/geo.svg">
+            </div>
+            <a href="#">NY, Manhattan</a>
+        </div>
+        <!-- input(поиск) -->
+        <div class="header__track">
+            <input class="search" type="text" placeholder="Track a Package" value="">
+            <img src="images/lupa.svg" alt="" class="search-icon">
+        </div>
+        <!-- ссылка -->
+        <div class="header__send">
+            <a href="#">Send a Parcel</a>
+        </div>
+        <!-- ссылка -->
+        <div class="header__become">
+             <a href="#">Become a Courier</a>
+        </div>
+        <!-- кнопка -->
+        <div class="header__btn">
+            <a href="#"><img src="images/lock.svg" alt=""></a>
+        </div>
+
+      
+    </header>
+    <!-- меню мобилка -->
+    <div class="mobile__burger item_mobile">
+        <div class="burger__container">
+
+            <div class="burger__geo">
+                <div class="geo__img">
+                    <img src="images/geo.svg">
+                </div>
+                <a href="#">NY, Manhattan</a>
+                <div class="burger__krest">
+                    <img src="images/krest.svg" alt="">
+                </div>
+            </div>
+            <div class="burger__input">
+                <input class="search" type="text" placeholder="Track a Package" value="">
+                <img src="images/lupa.svg" alt="" class="search-icon">
+            </div>
+            <ul class="burger__sen">
+                <li><a href="#">Send a Parcel</a></li>
+                <li><a href="#">Become a Courier</a></li>
+                <li><a href="#">Affiliate Program</a></li>
+                <li><a href="#">Help & Support</a></li>
+            </ul>
+            <div class="burger__button">
+                <button>Take a complex order</button>
+            </div>
+
+        </div>
+    </div>
+    <!-- главная страница -->
+    <div class="main">
+        <!-- блок с заголовкам, текстом, ссылка и видео -->
+        <div class="main__info item_desktop">
+            <h2 class="main__title">
+                Our service started
+                work in New York
+            </h2>
+            <div class="main__subtitle">
+                We make delivery exactly at the time you need - we can start to fulfill the order a few minutes after it arrives, or we can deliver on a specific day and hour.
+            </div>
+            <div class="main__link">
+                <a href="#">Read more</a>
+                <div class="link__img">
+                    <img src="images/strelka.svg" alt="">
+                </div>
+            </div>
+            <div class="main__name">
+                How it works
+            </div>
+            <div class="main__video item_desktop">
+                <img src="images/video (1).png" alt="">
+                <div class="main__video_play">
+                    <img src="images/play_video.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- фоновая картинка -->
+        <div class="main__images item_desktop">
+            <div class="main__img">
+                <img src="images/city1.svg" alt="">
+            </div>
+            <div class="main__svg_1">
+                <img src="images/city2.svg" alt="">
+            </div>
+            <div class="main__svg_2">
+                <img src="images/city3.svg" alt="">
+            </div>
+        </div>
+        <!-- форма записи -->
+        <div class="main__form item_desktop">
+            <form class="main__send">
+                <div class="send__container">
+                    <div class="send__title">
+                        Send a Parcel
+                        <div class="send__title_btn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="12" fill="#DDE7FD"/>
+                                <path d="M11 11C11 10.4477 11.4477 10 12 10C12.5523 10 13 10.4477 13 11V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V11Z" fill="white"/>
+                                <path d="M11 7C11 6.44772 11.4477 6 12 6C12.5523 6 13 6.44772 13 7C13 7.55228 12.5523 8 12 8C11.4477 8 11 7.55228 11 7Z" fill="white"/>
+                                </svg>
+                        </div>
+                        <div class="send__tultip">
+                            A commission is a piece of work that someone is asked to do and is paid for.
+                        </div>
+                    </div>
+                    <div class="send__categori">
+                        <div class="categori__up categori__up-1">
+                            <div class="up__img-1">
+                                <img src="images/up10.svg"  alt="">
+                            </div>
+                            <div class="up__title up__title-1">
+                                up to 10lb
+                            </div>  
+                        </div>
+                        <div class="categori__up categori__up-2">
+                            <div class="up__img-2">
+                                <img src="images/Car.svg"  alt="">
+                            </div>
+                            <div class="up__title">
+                                up to 130lb
+                            </div>
+                        </div>
+                        <div class="categori__up categori__up-3">
+                            <div class="up__img-3">
+                                <img src="images/Truck.svg"  alt="">
+                            </div>
+                            <div class="up__title">
+                                over 130lb
+                            </div>
+                        </div>
+                    </div>
+                    <div class="send__input">
+                        <div class="send__line">
+                            <img src="images/form-line.svg" alt="">
+                        </div>
+                        <div class="input__box">
+                            <div class="input__title">
+                                Pickup location
+                            </div>
+                            <div class="input__location input__location-1">
+                                <!-- <input placeholder="location"> -->
+                                <select id="country" name="location" class="select" onchange="toggleButton()">
+                                    <option selected disabled hidden value="">location</option>
+                                    <option value="ch">Chicago</option>
+                                    <option value="ph">Philadelphia</option>
+                                    <option value="da">Dallas</option>
+                                    <option value="ja">Jacksonville</option>
+                                    <option value="sf">San Francisco</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="input__box">
+                            <div class="input__title">
+                                Drop location
+                            </div>
+                            <div class="input__location-2">
+                                <input id="username" onchange="toggleButton()" placeholder="502 86th St, Brooklyn, NY 11209">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="send__btn">
+                        <a href="#"><button id="submitButton">Order</button></a>
+                    </div>
+                    <div class="send__clear">
+                        <div class="clear__img">
+                            <img src="images/crest.svg" alt="">
+                        </div>
+                        <a href="#" id="clearButton">Clear All</a>
+                    </div>
+                </div>
+            </form>
+
+            <div class="main__track">
+                <div class="track__container">
+                    <div class="track__title">
+                        Track a package
+                    </div>
+                    <div class="track__input">
+                        <input class="search" type="text" placeholder="Enter code" value="">
+                        <img src="images/lupa2.svg" alt="" class="search-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+        <!-- форма записи -->
+        <div class="main__form item_mobile">
+            <form id="form" class="main__send">
+                <div class="send__container">
+                    <div class="send__title">
+                        Send a Parcel
+                        <div class="send__title_btn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="12" fill="#DDE7FD"/>
+                                <path d="M11 11C11 10.4477 11.4477 10 12 10C12.5523 10 13 10.4477 13 11V17C13 17.5523 12.5523 18 12 18C11.4477 18 11 17.5523 11 17V11Z" fill="white"/>
+                                <path d="M11 7C11 6.44772 11.4477 6 12 6C12.5523 6 13 6.44772 13 7C13 7.55228 12.5523 8 12 8C11.4477 8 11 7.55228 11 7Z" fill="white"/>
+                                </svg>
+                        </div>
+                        <div class="send__tultip">
+                            A commission is a piece of work that someone is asked to do and is paid for.
+                        </div>
+                    </div>
+                    <div class="send__categori">
+                        <div class="categori__up categori__up-1">
+                            <div class="up__img-1">
+                                <img src="images/up10.svg"  alt="">
+                            </div>
+                            <div class="up__title up__title-1">
+                                up to 10lb
+                            </div>  
+                        </div>
+                        <div class="categori__up categori__up-2">
+                            <div class="up__img-2">
+                                <img src="images/Car.svg"  alt="">
+                            </div>
+                            <div class="up__title">
+                                up to 130lb
+                            </div>
+                        </div>
+                        <div class="categori__up categori__up-3">
+                            <div class="up__img-3">
+                                <img src="images/Truck.svg"  alt="">
+                            </div>
+                            <div class="up__title">
+                                over 130lb
+                            </div>
+                        </div>
+                    </div>
+                    <div class="send__input">
+                        <div class="send__line">
+                            <img src="images/form-line.svg" alt="">
+                        </div>
+                        <div class="input__box">
+                            <div class="input__title">
+                                Pickup location
+                            </div>
+                            <div class="input__location input__location-1">
+                                <!-- <input placeholder="location"> -->
+                                <select id="country" name="location" class="select" onchange="toggleButton()">
+                                    <option selected disabled hidden value="">location</option>
+                                    <option value="ch">Chicago</option>
+                                    <option value="ph">Philadelphia</option>
+                                    <option value="da">Dallas</option>
+                                    <option value="ja">Jacksonville</option>
+                                    <option value="sf">San Francisco</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="input__box">
+                            <div class="input__title">
+                                Drop location
+                            </div>
+                            <div class="input__location-2">
+                                <input id="username" onchange="toggleButton()" placeholder="502 86th St, Brooklyn, NY 11209">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="send__btn">
+                        <a href="#"><button id="submitButton">Order</button></a>
+                    </div>
+                    <div class="send__clear">
+                        <div class="clear__img">
+                            <img src="images/crest.svg" alt="">
+                        </div>
+                        <a href="#" id="clearButton">Clear All</a>
+                    </div>
+                </div>
+            </form>
+
+            <div class="main__track">
+                <div class="track__container">
+                    <div class="track__title">
+                        Track a package
+                    </div>
+                    <div class="track__input">
+                        <input class="search" type="text" placeholder="Enter code" value="">
+                        <img src="images/lupa2.svg" alt="" class="search-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- блок с заголовкам, текстом, ссылка и видео -->
+        <div class="main__info item_mobile">
+            <h2 class="main__title">
+                Our service started
+                work in New York
+            </h2>
+            <div class="main__subtitle">
+                We make delivery exactly at the time you need - we can start to fulfill the order a few minutes after it arrives, or we can deliver on a specific day and hour.
+            </div>
+            <div class="main__link">
+                <a href="#">Read more</a>
+                <div class="link__img">
+                    <img src="images/strelka.svg" alt="">
+                </div>
+            </div>
+            <div class="main__name">
+                How it works
+            </div>
+
+            <div class="main__video swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/video.png" alt=""></div>
+                    <div class="swiper-slide"><img src="images/video.png" alt=""></div>
+                    <div class="swiper-slide"><img src="images/video.png" alt=""></div>
+                    <div class="swiper-slide"><img src="images/video.png" alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                
+            </div>
+            <div class="dots__video">
+                <div class="dots"></div>
+                <div class="dots"></div>
+                <div class="dots"></div>
+                <div class="dots"></div>
+            </div>
+
+        </div>
+        <!-- фоновая картинка -->
+        <div class="main__images item_mobile">
+            <div class="main__img">
+                <img src="images/city-mobile.svg" alt="">
+            </div>
+        </div>
+  
+    </div>   
+    <!-- блок экспреесс достава -->
+    <div class="express">
+        <div class="express__container">
+            <!-- название и текст -->
+            <div class="express__header">
+
+                <h2 class="express__title" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">Express delivery market revolution</h2>
+                
+                <div class="express__subtitle">
+                    Express courier service in the city. We are a reliable logistics partner for delivery services for online stores and restaurants!
+                </div>
+            </div>
+            <!-- три колонки -->
+            <div class="express__menu">
+                <div class="menu__pad" data-aos="fade-right" data-aos-duration="500" data-aos-easing="linear">
+                    <div class="pad__container">
+                        <div class="pad__title">
+                            Become a Courier
+                        </div>
+
+                        <div class="pad__img">
+                            <div class="pad__images_1">
+                                <img src="images/express1-1.svg" alt="">
+                            </div>
+                            <div class="pad__images_route">
+                                <img src="images/express-route.svg" alt="">
+                            </div>
+                        </div>
+                     
+                        <div class="pad__tex">
+                            You choose a schedule. You decide how much and when to earn. Earnings from day one
+                        </div>
+                    </div>
+                </div>
+                <div class="menu__pad" data-aos="fade-up" data-aos-duration="500" data-aos-easing="linear">
+                    <div class="pad__container">
+                        <div class="pad__title">
+                            Help & Support
+                        </div>
+                        <div class="pad__images">
+                            <img src="images/export2-2.svg" alt="">
+                        </div>
+                        <div class="pad__tex">
+                            Door-to-door delivery
+                            in 90 minutes or at your convenience
+                        </div>
+                    </div>
+                </div>
+                <div class="menu__pad" data-aos="fade-left" data-aos-duration="500" data-aos-easing="linear">
+                    <div class="pad__container">
+                        <div class="pad__title">
+                            Affiliate Program
+                        </div>
+                        <div class="pad__images">
+                            <img src="images/express3-3.svg" alt="">
+                        </div>
+                        <div class="pad__tex">
+                            Use our service and feel
+                            new quality of this traditional service!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    <!-- блок с линией-->
+    <div class="line item_desktop">
+        <img src="images/sepline.svg" alt="">
+    </div>
+    <div class="line item_mobile">
+        <img src="images/Sepline-mobile.svg" alt="">
+    </div>
+    <!-- блок с партнерами -->
+    <div class="partners">
+        <div class="partners__header">
+      
+            <h2 class="partners__title" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">Our Partners</h2>
+
+            <div class="partners__collaboration item_desktop">
+                <a href="#">
+                    <div class="collaboration__img">
+                        <img src="images/collaboration.svg" alt="">
+                    </div>
+                    Let's collaborate
+                </a>
+            </div>
+        </div>
+        <div class="partners__brand">
+            <div class="brand__logo_1 brand__logo">
+                <a href="#"><img src="images/brand1.svg" alt=""></a>
+            </div>
+            <div class="brand__logo_2 brand__logo">
+                <a href="#"><img src="images/brand2.svg" alt=""></a>
+            </div>
+            <div class="brand__logo_3 brand__logo">
+                <a href="#"><img src="images/brand3.svg" alt=""></a>
+            </div>
+            <div class="brand__logo_4 brand__logo">
+                <a href="#"><img src="images/brand4.svg" alt=""></a>
+            </div>
+            <div class="brand__logo_5 brand__logo">
+                <a href="#"><img src="images/brand5.svg" alt=""></a>
+            </div>
+            
+            
+        </div>
+        <div class="partners__collaboration item_mobile">
+            <a href="#">
+                <div class="collaboration__img">
+                    <img src="images/collaboration.svg" alt="">
+                </div>
+                Let's collaborate
+            </a>
+        </div>
+    </div>
+    <!-- блог с началом -->
+    <div class="start">
+        <div class="start__bg item_desktop">
+            <img src="images/start-bg.svg" alt="">
+        </div>
+        <div class="start__img item_desktop">
+            <img src="images/Intersect.svg" alt="">
+        </div>
+        <div class="start__container">
+            
+            <div class="start__header">
+                <h2 class="start__title" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">What we do</h2>
+                <div class="start__subtitle">
+                    Express courier service in the city. We are a reliable logistics partner for delivery services for online stores and restaurants!
+                </div>
+            </div>
+
+            <div class="start__menu">
+                <div class="menu__serves" data-aos="fade-right" data-aos-duration="500" data-aos-easing="linear">
+                    <div class="serves__container">
+                        <div class="serves__images serves__images_1">
+                            <img src="images/start1-1.svg" alt="">
+                        </div>
+
+                        <div class="serves__title">
+                            Online <a href="">calculation</a>
+                        </div>
+                        
+                        <div class="serves__text">
+                            Instant calculation of the cost in the order form, the price is updated in the process of filling out the form
+                        </div>
+                    </div>
+                </div>
+                <div class="menu__serves"  data-aos="fade-up" data-aos-duration="500" data-aos-easing="linear">
+                    <div class="serves__container">
+                        <div class="serves__images serves__images_1">
+                            <img src="images/start2.svg" alt="">
+                        </div>
+
+                        <div class="serves__title">
+                            Minimum paperwork
+                        </div>
+                       
+                        <div class="serves__text">
+                            You can place an order for courier or freight delivery without registration and contract.
+                        </div>
+                    </div>
+                </div>
+                <div class="menu__serves"  data-aos="fade-left" data-aos-duration="500" data-aos-easing="linear">
+                    <div class="serves__container">
+                        <div class="serves__images serves__images_1">
+                            <img src="images/start3.svg" alt="">
+                        </div>
+                        
+                        <div class="serves__title">
+                            Convenient payment
+                        </div>
+                     
+                        <div class="serves__text">
+                            You can pay for delivery by card or in cash at any of the order addresses. For legal entities non-cash is available. <div class="serves__text_a"><a href="#"><img src="images/i.svg" alt=""></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="start__button">
+                <a href="#">Get started!</a>
+            </div>
+
+        </div>
+    </div>
+    <!-- слайдер -->
+    <div class="slider">
+        <div class="slider__container">
+
+            <div class="slider__header">
+                <h2 class="slider__title" data-aos="fade-down" data-aos-duration="500" data-aos-easing="linear">
+                    Payment methods
+                </h2>
+            </div>
+
+
+            <div id="prev" class="prev item_desktop">
+                <img src="images/Left.svg" alt="">
+            </div>
+            <div class="swiper slider__body">
+            
+                <div class="swiper-wrapper slider__track">
+                    <div class="sliders__group swiper-slide">
+                        <div class="slide">
+                            <a href="#"><img src="images/slider1.png" alt=""></a>
+                        </div>
+                        <div class="slide">
+                            <a href="#"><img src="images/slider2.png" alt=""></a>
+                        </div>
+                        <div class="slide">
+                            <a href="#"><img src="images/slider3.png" alt=""></a>
+                        </div>
+                        <div class="slide">
+                            <a href="#"><img src="images/slider4.png" alt=""></a>
+                        </div>
+                        <div class="slide">
+                            <a href="#"><img src="images/slider5.png" alt=""></a>
+                        </div>
+                        <div class="slide">
+                            <a href="#"><img src="images/slider6.png" alt=""></a>
+                        </div>
+                    </div>
+        
+                    <div class="sliders__group swiper-slide">
+                        <div class="slide">
+                            <a href="#"><img src="images/slider4.png" alt=""></a>
+                        </div>
+                        <div class="slide">
+                            <a href="#"><img src="images/slider2.png" alt=""></a>
+                        </div>
+                        <div class="slide item_desktop">
+                            <a href="#"><img src="images/slider3.png" alt=""></a>
+                        </div>
+                        <div class="slide item_desktop">
+                            <a href="#"><img src="images/slider1.png" alt=""></a>
+                        </div>
+                        
+                    </div>
+
+                
+                </div>                
+            </div>
+            <div id="next" class="next item_desktop">
+                <img src="images/Right.svg" alt="">
+            </div>
+
+
+        </div>
+    </div>
+    <!-- блок с линией-->
+    <div class="line item_desktop">
+        <img src="images/sepline.svg" alt="">
+    </div>
+    <div class="line item_mobile">
+        <img src="images/Sepline-mobile.svg" alt="">
+    </div>
+    <!-- блок с текстом -->
+    <div class="text">
+        <div class="text__container">
+
+            <div class="text__body" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="linear">
+                <p class="pargraf">
+                    Since 2019, LibertyWalk has successfully provided express courier delivery services in the city for both individuals and legal entities, and is also a reliable logistics partner for delivery services for online stores and restaurants!
+                    Express delivery of documents and parcels for organizations, express delivery of correspondence, purchases, flowers, food, gifts and goods up to 1.5 tons - the most frequent orders in our company.
+                </p>
+                <p>
+                    But at the same time, we do not limit the range of courier services and without problems we can buy and bring goods and products from the online store, arrange delivery for the online store, cafe, supermarket, restaurant or any other business. Around the clock on our website you can call a courier in just a minute and arrange an express courier delivery without unnecessary bureaucracy, negotiations and calls to the call center. <span id="dots"></span><span id="more" class="more">But at the same time, we do not limit the range of courier services and without problems we can buy and bring goods and products from the online store, arrange delivery for the online store, cafe, supermarket, restaurant or any other business. Around the clock on our website you can call a courier in just a minute and arrange an express courier delivery without unnecessary bureaucracy, negotiations and calls to the call center.</span><button id="btn" class="tocki" onclick="readMore()"><img src="images/tocki.svg" alt=""></button>
+                </p>
+                
+            </div>
+
+        </div>
+    </div>
+    <!-- футер -->
+    <footer class="footer">
+        <div class="footer__container">
+
+            <div class="footer__body">
+                <div class="footer__items">
+                    <div class="items__about">
+                        <div class="about__title">
+                            About Whoosh
+                        </div>
+                        <div class="about__text">
+                            <div class="about__text_img">
+                                <img src="images/footer-symbol.svg" alt="">
+                            </div>
+                            Express delivery of documents and parcels for organizations, express delivery of correspondence, purchases and other goods
+                        </div>
+                    </div>
+                    <div class="items__menu item_desktop">
+                        <div class="menu__title">
+                            Menu
+                        </div>
+                        <ul class="menu__ul">
+                            <li><a href="#">About company</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Rules</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Reviews</a></li>
+                            <li><a href="#">Cargo transportation</a></li>
+                            <li><a href="#">Tariffs</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="menu__services_mobile item_mobile">
+                        <div class="items__menu">
+                            <div class="menu__title">
+                                Menu
+                            </div>
+                            <ul class="menu__ul">
+                                <li><a href="#">About company</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Rules</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Reviews</a></li>
+                                <li><a href="#">Cargo transportation</a></li>
+                                <li><a href="#">Tariffs</a></li>
+                            </ul>
+                        </div>
+                        <div class="item__services">
+                            <div class="services__title">
+                                Services
+                            </div>
+                            <ul class="menu__ul">
+                                <li><a href="">Online stores</a></li>
+                                <li><a href="">Legal entity</a></li>
+                                <li><a href="">API Integration</a></li>
+                                <li><a href="">Contract</a></li>
+                                <li><a href="">Jobs</a></li>
+                                <li><a href="">Courier job</a></li>
+                                <li><a href="">The blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="item__services item_desktop">
+                        <div class="services__title">
+                            Services
+                        </div>
+                        <ul class="menu__ul">
+                            <li><a href="">Online stores</a></li>
+                            <li><a href="">Legal entity</a></li>
+                            <li><a href="">API Integration</a></li>
+                            <li><a href="">Contract</a></li>
+                            <li><a href="">Jobs</a></li>
+                            <li><a href="">Courier job</a></li>
+                            <li><a href="">The blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="item__contact">
+                        <div class="contact__title">
+                            Contact us
+                        </div>
+                        <div class="contact__tel">
+                            8 800 934 5959
+                        </div>
+                        <div class="contact__geo">
+                            <div class="contact__geo_img">
+                                <img src="images/Pin.svg" alt="">
+                            </div>
+                            2545 W. Diversey Ave.
+                            3rd Floor Chicago, IL 60647
+                        </div>
+
+                        <div class="contact__logo">
+                            <div class="logo__fb">
+                                <a href="#"><img src="images/Facebook.svg" alt=""></a>
+                            </div>
+                            <div class="logo__vk">
+                                <a href="#"><img src="images/VK.svg" alt=""></a>
+                            </div>
+                            <div class="logo__youtube">
+                                <a href="#"><img src="images/Youtube.svg" alt=""></a>
+                            </div>
+                            <div class="logo__inst">
+                                <a href="#"><img src="images/Instagram.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__inner">
+                    <div class="inner__line item_desktop">
+                        <img src="images/made.svg" alt="">
+                    </div>
+                    <div class="inner__final item_desktop">
+                        <div class="final__reserve item_desktop">
+                            © 2022. All rights reserved.
+                        </div>
+                        <div class="final__logo item_desktop">
+                            <a href="#"><img src="images/logo-footer.svg" alt=""></a>
+                        </div>
+                        <div class="final__privacy item_desktop">
+                            <div class="final__privacy_img">
+                                <img src="images/footer-shit.svg" alt="">
+                            </div>
+                            Privacy policy
+                        </div>
+                    </div>
+
+                    <div class="inner__final item_mobile">
+                        <div class="final__privacy item_mobile">
+                            <div class="final__privacy_img">
+                                <img src="images/footer-shit.svg" alt="">
+                            </div>
+                            Privacy policy
+                        </div>
+                        <div class="final__reserve item_mobile">
+                            © 2022. All rights reserved.
+                        </div>
+                        <div class="inner__line item_mobile">
+                            <img src="images/line-footer.svg" alt="">
+                        </div>
+                         <div class="final__logo item_mobile">
+                            <a href="#"><img src="images/logo-mobile.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+</div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
